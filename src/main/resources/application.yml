@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    group:
+      "dev": "dev"
+      "dev-h2": "dev-h2"
+
+server:
+  port: 80

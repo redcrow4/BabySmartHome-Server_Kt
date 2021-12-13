@@ -1,0 +1,15 @@
+# dev
+spring:
+  config:
+    activate:
+      on-profile: "dev"
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://midas-dev.cc5qnr5qomwj.ap-northeast-2.rds.amazonaws.com/BABY_SMART_HOME_DEV
+    username: baby_smart_home_dev
+    password: baby_smart_home_dev
+
+mybatis:
+  mapper-locations: mybatis/mapper/*.xml
+  config-location: classpath:mybatis/mybatis-config.xml
